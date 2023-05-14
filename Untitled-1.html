@@ -1,0 +1,54 @@
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mi Primera Página Web</title>
+        <style type="text/css"> 
+            body { 
+                font-family: Arial, Helvetica, sans-serif; 
+                background-color: #f0f0f0; 
+            }
+
+            #contenedor { 
+                width: 960px; 
+                margin: 0 auto;  
+            }
+
+            #cabecera { 
+                background-color: #999; 
+                padding: 10px;  
+            }
+
+            #menu {  
+                float: left;  width: 200px;  
+            }
+
+            #contenido {  								      padding: 10px;   background-color:#E6E6FA ;   float: right; width: 750px;    }
+
+            .etiqueta_menu{   display: block;    font-weight: bolder;}
+
+        </style>   
+
+        <script type="text/javascript">
+
+            function mostrarAlerta(){   alert('Esto es una alerta');}
+
+        </script>    
+
+    </head>    
+
+    <body>    
+
+        <div id="contenedor">        
+
+           <div id="cabecera">             Mi Primera Página Web          </div>        
+
+           <div id="menu">             <span class="etiqueta_menu" onclick="mostrarAlerta()" >Mostrar Alerta</span>          </div>        
+
+           <div id="contenido">             Aquí va el contenido de la página web.         </div>    
+
+       </div>    
+
+    </body >    
+</html >
